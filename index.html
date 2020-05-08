@@ -11,7 +11,7 @@
     <title>Laura_Kubile_web</title>
 </head>
 <body>
-    <header>
+    <header id="header">
 
 /* navigation borrowed from bootsrap and made responsive for small screen*/
 
@@ -37,19 +37,18 @@
         </nav>
     </header>
 
-    <section>
-        <div class="container">
+    <section id="story-container">
+        <div class="container" id="story">
             <div class="row">
                 <div class="col-4">
-                    <img src="assets/images/education.jpg" class="rounded-circle float-left" height="200" width="200" alt="image">
+                    <img src="assets/images/education.jpg" class="rounded-circle float-left" height="150" width="150" alt="image">
                 </div>
                 <div class="col-4">
                     <h3>My Story</h3>
                     <hr class="block-divider block-divider--dark center"/>
                 </div>
             </div>
-        </div>
-        <div class="container">
+
             <div class="row">
                 <div class="col-12">
                     <p>I am that person who decided to reverse my life and get a completely new skill and experience by starting coding and web development. 
@@ -61,17 +60,20 @@
 
     </section>
 
-    <section>
+    <section id="portfolio-container">
 
-            <div class="container">
-                <div class="row">
-            
+            <div class="container" id="portfolio">
+                <div class="row">            
                     <div class="col-4">
                         <h4>My Portfolio</h4>
                         <hr class="block-divider block-divider--dark center">
                     </div>
+                </div>
+
+/*using bootsrap cards */
 
 
+                <div class="row">
                     <div class="col">
                         <div class="card">
                             <div class="card-body">
@@ -108,9 +110,9 @@
 
     </section>
 
-    <section>
+    <section id="resume-container">
 
-        <div class="container">
+        <div class="container" id="resume">
             <div class="row">
                 <div class="col-4">
                     <h3>My Resume</h3><br/>
@@ -134,7 +136,7 @@
 
     </section>
 
-    <footer>
+    <footer id="footer">
 
     /*---------social links copied from previous projects on the course */
 
