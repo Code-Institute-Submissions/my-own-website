@@ -4,6 +4,10 @@ body {
     background-color: #1c2135;
 }
 
+.story-container .resume-container {
+    color: #e7e9ee;
+}
+
 .social-links li a i {
     width: 32px;
     height: 32px;
