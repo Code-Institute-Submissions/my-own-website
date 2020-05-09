@@ -16,11 +16,11 @@
 /* navigation borrowed from bootsrap and made responsive for small screen*/
 
         <nav class="navbar navbar-expand-sm">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html">Laura Kubile</a>
+                    <a class="navbar-brand brand-logo" href="index.html">Laura Kubile</a>
 
-                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span></button>
 
                     </div>
@@ -31,7 +31,7 @@
                                 <li class="nav-item mr-2"><a href="#resume">Resume</a></li>
                             </ul>
                         </div>
-                    <button id="contact-me-form" type="button" class="btn" data-toggle="modal" data-target="#contactmeModal"><h1>Contact Me !</h1></button>
+                    <button id="contact-me" type="button" class="btn" data-toggle="modal" data-target="#contactmeModal"><h1>Contact Me !</h1></button>
 
             </div>
         </nav>
@@ -40,18 +40,18 @@
     <section id="story-container">
         <div class="container" id="story">
             <div class="row">
-                <div class="col-4">
+                <div class="col">
                     <img src="assets/images/education.jpg" class="rounded-circle float-left" height="150" width="150" alt="image">
                 </div>
                 <div class="col-4">
-                    <h3>My Story</h3>
+                    <h3 class="brand-story">My Story</h3>
                     <hr class="block-divider block-divider--dark center"/>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-12">
-                    <p>I am that person who decided to reverse my life and get a completely new skill and experience by starting coding and web development. 
+                <div class="col">
+                    <p class="story-text">I am that person who decided to reverse my life and get a completely new skill and experience by starting coding and web development. 
                     My background is quite diverse, I was studying and working with time gaps all of my life, and one thing I can say for sure about myself is that I really like to be busy. 
                     The new thing in my life now is the passion for coding and creativity, for solving problems and seeing the outcomes one expects. Check my projects in a portfolio page or go for resume if interested to see my last years of work and education.</p>
                 </div>
@@ -64,8 +64,8 @@
 
             <div class="container" id="portfolio">
                 <div class="row">            
-                    <div class="col-4">
-                        <h4>My Portfolio</h4>
+                    <div class="col">
+                        <h3 class="brand-potfolio">My Portfolio</h3>
                         <hr class="block-divider block-divider--dark center">
                     </div>
                 </div>
@@ -74,7 +74,7 @@
 
 
                 <div class="row">
-                    <div class="col">
+                    <div class="col-sm">
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Project A <i class="fas fa-gem"></i></h5>
@@ -83,7 +83,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-sm">
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Project B <i class="fas fa-book"></i></h5>
@@ -92,7 +92,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-sm">
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Project C <i class="fas fa-paint-brush"></i></h5>
@@ -114,15 +114,15 @@
 
         <div class="container" id="resume">
             <div class="row">
-                <div class="col-4">
-                    <h3>My Resume</h3><br/>
+                <div class="col">
+                    <h3 class="brand-resume">My Resume</h3><br/>
                     <hr class="block-divider block-divider--dark center">
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col">
                     <ul class="inline-list link-list">
                         <li class="link"><a href="https://drive.google.com/file/d/1gFKxz0ctZ-mdfdt2yHpLG6fopuHmtOOn/view?usp=">Here is my Resume</a></li>
                         <li class="link"><a href="https://drive.google.com/file/d/1nqIBytHMVyx5r2HsS3zDgy7nko9qroi6/view?usp=sharing">Here is my full CV</a></li>
@@ -169,7 +169,9 @@
                             </a>
                         </li>
                     </ul>
-                    <div class="phone"><span>My Phone Number +47708016606</span></div>
+                    <div class="col">
+                        <div class="phone float-right"><span>My Phone Number +47708016606</span></div>
+                    </div>
                 </div>
             </div>
         </div>

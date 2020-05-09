@@ -1,11 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Roboto:ital,wght@0,300;0,400;1,100;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,500&family=Tangerine:wght@400;700&display=swap');
 
 body {
     background-color: #1c2135;
 }
 
-.story-container .resume-container {
+#story-container {
     color: #e7e9ee;
+}
+
+/* the text styled*/
+
+.brand-logo, .brand-story, .brand-potfolio, .brand-resume {
+    color: #5a6794;
+    font-size: 90px;
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+}
+
+.story-text, .nav-item {
+    font-size: 20px;
+    color: #5a6794;
+}
+
+
+
+/*borrowed navbar css from a bootstrap site that was made on a course*/
+
+.navbar {
+    border: 5px;
+    width: 100%;
+    background-color: #1c2135;
+    border-color: #e7e9ee;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+
+
+#contact-me {
+      color:   #5a6794;
+      border-radius: 50%;
+      font-family: "Roboto";
+}
+
+/*the middle part style*/
+
+#portfolio-container {
+    color: #1c2135;
+    background-color: #e7e9ee;
+}
+
+#resume-container {
+    color:   #e7e9ee;
+}
+
+
+
+.phone {
+    color:   #e7e9ee;
 }
 
 .social-links li a i {
