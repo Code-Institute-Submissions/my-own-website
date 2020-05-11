@@ -4,9 +4,6 @@ body {
     background-color: #1c2135;
 }
 
-#story-container {
-    color: #e7e9ee;
-}
 
 /* the text styled*/
 
@@ -17,10 +14,25 @@ body {
     font-weight: 700;
 }
 
-.story-text, .nav-item {
+li.nav-item,  .story-text  {
     font-size: 20px;
     color: #5a6794;
 }
+/* block-divider*/
+
+.first-divider, .third-divider, .second-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #5a6794;
+}
+
+
+
+
+
+
+
 
 
 
@@ -47,12 +59,12 @@ body {
 
 /*the middle part style*/
 
-#portfolio-container {
+#portfolio {
     color: #1c2135;
     background-color: #e7e9ee;
 }
 
-#resume-container {
+#resume {
     color:   #e7e9ee;
 }
 
