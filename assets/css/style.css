@@ -5,12 +5,9 @@ body {
 }
 
 #header {
-    height: 200px;
+    height: 250px;
 }
 
-#footer {
-    height: 100px;
-}
 
 /* the text styled*/
 
@@ -21,10 +18,16 @@ body {
     font-weight: 700;
 }
 
+.brand-logo {
+    margin-right: 50px;
+}
+
+
 li.nav-item,  .story-text  {
     font-size: 20px;
     color: #5a6794;
 }
+
 /* block-divider*/
 
 .first-divider, .third-divider, .second-divider {
@@ -62,7 +65,7 @@ li.nav-item,  .story-text  {
       color:   #5a6794;
       border-radius: 50%;
       font-family: "Roboto";
-      font-size: 20px;
+      font-size: 40px;
 }
 
 /*the middle part style*/
@@ -85,6 +88,9 @@ li.nav-item,  .story-text  {
     width: 100vw;
 }
 
+#footer {
+    height: 100px;
+}
 
 
 .phone {
