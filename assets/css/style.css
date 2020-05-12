@@ -22,8 +22,14 @@ body {
     margin-right: 50px;
 }
 
+/*the block of text that counts as story */
+.story-text  {
+    font-size: 20px;
+    color: #5a6794;
+}
+/*the list in header - story, portfolio, resume*/
 
-li.nav-item,  .story-text  {
+li .nav-item  {
     font-size: 20px;
     color: #5a6794;
 }
@@ -59,6 +65,13 @@ li.nav-item,  .story-text  {
     border: 0;
 }
 
+/*to make navbar visible on mobile*/
+
+#navbarNavDropDown {
+    border-color: #e7e9ee
+}
+
+
 /*conatact me button and text */
 
 #contact-me {
@@ -73,6 +86,12 @@ li.nav-item,  .story-text  {
 #story {
     height: 100vh;
     width: 100vw;
+}
+
+/*the image*/
+
+.round-image {
+    box-shadow: 5px 5px 5px #e7e9ee;
 }
 
 #portfolio {
