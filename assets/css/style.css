@@ -81,7 +81,7 @@ li .nav-item  {
 /*to make navbar visible on mobile*/
 
 #navbarNavDropDown {
-    border-color: #e7e9ee
+    border-color: #e7e9ee;
 }
 
 
@@ -101,6 +101,13 @@ li .nav-item  {
     width: 100vw;
 }
 
+/*card style*/
+
+
+
+
+
+
 /*the image*/
 
 .round-image {
@@ -115,6 +122,7 @@ li .nav-item  {
     background-color: #e7e9ee;
     height: 100vh;
     width: 100vw;
+    padding-right: 25px;
 }
 
 /*portfolio cards*/
