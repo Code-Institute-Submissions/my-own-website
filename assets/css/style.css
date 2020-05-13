@@ -2,6 +2,7 @@
 
 body {
     background-color: #1c2135;
+    scroll-behavior: smooth;
 }
 
 #header {
