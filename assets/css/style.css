@@ -5,6 +5,19 @@ body {
     scroll-behavior: smooth;
 }
 
+/*madia*/
+
+@media only screen and (max-width: 768px) {
+   body { display: inline;
+   }
+}
+
+
+
+
+
+
+
 #header {
     height: 200px;
 }
