@@ -14,9 +14,9 @@ body {
 
 /* the text styled*/
 
-.brand-logo, .brand-story, .brand-potfolio, .brand-resume {
+.brand-logo, .brand-story, .brand-potfolio, .brand-contact {
     color: #5a6794;
-    font-size: 90px;
+    font-size: 60px;
     font-family: "Tangerine", cursive;
     font-weight: 700;
     text-align: center;
@@ -33,7 +33,7 @@ body {
 /*the list in header - story, portfolio, resume and social links in the bottom*/
 
 .nav-item, .link-list  {
-    font-size: 20px;
+    font-size: 45px;
     color: #5a6794;
 }
 
@@ -61,13 +61,6 @@ body {
 
 
 /*conatact me button and text */
-
-#contact-me {
-      color:   #5a6794;
-      border-radius: 50%;
-      font-family: "Roboto";
-      font-size: 40px;
-}
 
 /*the middle part style*/
 
@@ -110,19 +103,10 @@ body {
 
 
 
-#resume {
+#contact-form {
     height: 100vh;
     width: 100vw;
 }
-
-.resume-text  {
-    font-size: 20px;
-    color: #5a6794;
-    margin-top: 50px;
-    text-align: center;
-}
-
-
 
 
 #footer {
