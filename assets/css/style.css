@@ -23,7 +23,9 @@ body {
     margin-top: 10px;
 }
 
-
+.brand-logo {
+    text-shadow: 2px 2px 2px #e7e9ee;
+}
 
 
 /*the block of text that counts as story */
@@ -68,7 +70,7 @@ body {
 }
 
 
-/*conatact me button and text */
+
 
 /*the middle part style*/
 
