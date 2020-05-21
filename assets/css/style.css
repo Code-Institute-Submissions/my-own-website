@@ -32,10 +32,15 @@ body {
 }
 /*the list in header - story, portfolio, resume and social links in the bottom*/
 
-.nav-item, .link-list  {
-    font-size: 30px;
-    color: #5a6794;
+.navbar-list ul li {
+    font-size: 20px;
+    margin-right: 30px;
 }
+
+.sticky-top {
+    position: sticky;
+}
+
 
 /* block-divider*/
 
