@@ -16,7 +16,7 @@ body {
 
 .brand-logo, .brand-story, .brand-potfolio, .brand-contact {
     color: #5a6794;
-    font-size: 80px;
+    font-size: 60px;
     font-family: "Tangerine", cursive;
     font-weight: 700;
     text-align: center;
@@ -45,6 +45,11 @@ body {
     height: 3px;
     border: 0;
     background-color: #5a6794;
+}
+
+.third-divider {
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 /*borrowed navbar css from a bootstrap site that was made on a course*/
@@ -98,7 +103,7 @@ body {
 #portfolio {
     color: #1c2135;
     background-color: #e7e9ee;
-    height: 140vh;
+    height: 120vh;
     width: 100vw;
     padding-right: 25px;
 }
@@ -114,6 +119,7 @@ body {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    color: #5a6794;
 }
 
 .form-row {
@@ -124,7 +130,9 @@ body {
 .submit-btn {
     background-color: #5a6794;
     color: #e7e9ee;
+    margin-top: 20px;
 }
+
 
 
 
