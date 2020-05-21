@@ -48,8 +48,8 @@ body {
 }
 
 .third-divider {
-    margin-top: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top: -25px;
 }
 
 /*borrowed navbar css from a bootstrap site that was made on a course*/
@@ -101,8 +101,8 @@ body {
 }
 
 #portfolio {
-    color: #1c2135;
-    background-color: #e7e9ee;
+    background-color: #1c2135;
+    color: #e7e9ee;
     height: 120vh;
     width: 100vw;
     padding-right: 25px;
