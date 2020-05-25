@@ -26,9 +26,6 @@ body {
     margin-top: 10px;
 }
 
-.brand-logo {
-    text-shadow: 2px 2px 2px #e7e9ee;
-}
 
 
 /*the block of text that counts as story */
@@ -44,6 +41,10 @@ body {
     margin-right: 30px;
 }
 
+.navbar-list {
+    position: relative;
+    text-align: right;
+}
 
 /* block-divider*/
 
