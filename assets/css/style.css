@@ -9,11 +9,6 @@ body {
     background-color: #1c2135;
 }
 
-@media (min-width: 576px) {
-    #story {
-    height: 100vh;
-}
-
 /*header style*/
 
 #header {
