@@ -38,18 +38,10 @@ body {
 /*the list in header - story, portfolio, resume and social links in the bottom*/
 
 
-.navbar-toggler {
-    color: #e7e9ee;
-    border-color: #5a6794;
-    border: 1px solid;
-    line-height: 1px;
-}
-
 
 .navbar-list ul li {
     font-size: 20px;
     margin-right: 30px;
-    float: right;
 }
 
 
