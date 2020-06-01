@@ -62,7 +62,11 @@ body {
 /*borrowed navbar css from a bootstrap site that was made on a course*/
 
 
-
+#navbarNavDropdown {
+    text-align: right;
+    margin-left: 450px;
+    margin-top: 50px;
+}
 
 /*the middle part style*/
 
