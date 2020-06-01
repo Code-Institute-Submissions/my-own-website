@@ -106,6 +106,8 @@ body {
 
 .round-image {
     box-shadow: 3px 3px 3px #e7e9ee;
+    height: 170px;
+    width: 160px;
 }
 
 #portfolio {
