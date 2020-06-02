@@ -16,6 +16,11 @@ body {
     background-color: #1c2135;
 }
 
+.navbar-row, .story-row, .text-row, .portfolio-row, .card-row, .form-row, .footer-row {
+    margin: 0;
+    padding: 0;
+}
+
 
 /* the text styled*/
 
