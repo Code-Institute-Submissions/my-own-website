@@ -7,8 +7,9 @@ It gives anyone an opportunity to show the potential employer or project collabo
 that one can use to improve company work and results. The web site is made to function as advertisement 
 for the person and is directed to catch the attention of possible collaborators or employers.
 Basically:
-•	To advertise the person
-•	To attract employers and collaborators
+
+-To advertise the person
+-To attract employers and collaborators
 
 ### UX
 To make the web page attractive for the audience there are used pastel and calm colours 
@@ -32,18 +33,14 @@ By using Balsamiq app three wireframes were created to serve as sketches for the
  
  
 
-
-
-
-
 ### Surface
 Code institute template was used to create the project. Several colour pallets were applied to give the pages crisp and solid aesthetics.  Pinterest app was used to find the better combination of the fonts, which were used through Google Fonts and Font Awesome was applied for little icons. The whole aesthetics were combined to create subtle but tough impression on the person advertised.
 
 ### Technologies
-•	Balsamiq - To create a wireframe
-•	HTML - To create a basic site
-•	Bootstrap - To improve responsiveness
-•	CSS - To create an attractive style
+-Balsamiq - To create a wireframe
+-HTML - To create a basic site
+-Bootstrap - To improve responsiveness
+-CSS - To create an attractive style
 
 ### Features
 The features used in this website are simple and easy to use as I wanted to create a page 
@@ -61,8 +58,8 @@ In future there can be added the same website in a different language as well.
 ### Testing
 The website was tested on different browsers, such as Chrome, Internet explorer, Microsoft Edge. Html and css 
 were ran through the validators:
-•	W3C HTML Validator: This validator checks the markup validity of Web documents in HTML.
-•	W3C CSS Validator: This validator checks the markup validity of Web documents in CSS.
+-W3C HTML Validator: This validator checks the markup validity of Web documents in HTML.
+-W3C CSS Validator: This validator checks the markup validity of Web documents in CSS.
 
 ### Problems and bugs
 I think the site works and serves the purpose it was created for, on the other hand, 
