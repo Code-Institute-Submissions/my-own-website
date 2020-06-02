@@ -12,7 +12,8 @@ body {
 
 @media (max-width: 576px) { 
     .row {
-        height: 100vh;
+        margin: 0;
+        padding: 0;    
     }
     .d-project, .e-project, .f-project {
         display: none;
