@@ -12,7 +12,6 @@ body {
 
 @media (max-width: 576px) { 
     .row {
-        width: 100vw;
         height: 100vh;
     }
     .d-project, .e-project, .f-project {
