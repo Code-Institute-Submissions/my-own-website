@@ -11,6 +11,16 @@ body {
 
 /*--media--*/
 
+@media (min-width: 576px) { 
+    .row {
+    margin: 0;
+    padding: 0;
+    }
+    .d-project, .e-project, .f-project {
+        display: none;
+    }
+ }
+
 
 
 
@@ -23,7 +33,7 @@ body {
     background-color: #1c2135;
 }
 
-.navbar-row, .story-row, .text-row, .portfolio-row, .card-row, .form-row, .footer-row {
+.row {
     margin: 0;
     padding: 0;
 }
