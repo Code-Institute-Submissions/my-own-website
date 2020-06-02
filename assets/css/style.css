@@ -18,6 +18,9 @@ body {
     .d-project, .e-project, .f-project {
         display: none;
     }
+    .phone {
+        display: block;
+    }
  }
 
 
