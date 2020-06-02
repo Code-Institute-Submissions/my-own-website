@@ -2,7 +2,6 @@
 
 html {
     scroll-behavior: smooth;
-    overflow-x: hidden;
 }
 
 body {
@@ -13,8 +12,8 @@ body {
 
 @media (max-width: 576px) { 
     .row {
-    margin: 0;
-    padding: 0;
+        width: 100vw;
+        height: 100vh;
     }
     .d-project, .e-project, .f-project {
         display: none;
