@@ -175,12 +175,11 @@ body {
 
 .phone {
     color:   #e7e9ee;
-    position: relative;
+    text-align: right;
 }
 
 .social-links {
     margin-bottom: 0;
-    position: absolute;
 }
 
 .social-links li a i {
