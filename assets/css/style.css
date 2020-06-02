@@ -9,6 +9,20 @@ body {
     background-color: #1c2135;
 }
 
+/*--media--*/
+
+
+@include media-breakpoint-down(sm) { 
+    .row {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+
+
+
 /*header style*/
 
 #header {
