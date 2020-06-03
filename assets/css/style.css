@@ -32,6 +32,11 @@ body {
         font-weight: bold;
     }
 
+    .navbar-toggler-icone {
+        color: #5a6794;
+        border: 1px;
+    }
+
     .navbar-toggler:hover {
         float: left;
         text-align: center;
