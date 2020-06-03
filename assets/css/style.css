@@ -11,6 +11,13 @@ body {
 /*--media--*/
 
 @media (max-width: 576px) { 
+
+    html {
+        width: 100vw;
+        height: 100vh;
+    }
+
+
     #navbarNavDropdown {
         text-align: center;
     }
@@ -41,13 +48,10 @@ body {
 
     .form-group {
         width: 10rem;
-        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
  }
-
-
-
-
 
 
 /*header style*/
@@ -56,6 +60,8 @@ body {
     height: 70px;
     background-color: #1c2135;
 }
+
+/*--that is supposed to stop overflow--*/
 
 .row {
     margin: 0;
@@ -75,13 +81,14 @@ body {
 }
 
 
-
 /*the block of text that counts as story */
 .story-text  {
     font-size: 20px;
     color: #5a6794;
     margin: 50px 50px 0 50px;
 }
+
+
 /*the list in header - story, portfolio, resume and social links in the bottom*/
 
 
@@ -156,6 +163,8 @@ body {
 
 }
 
+/*--portfolio bit--*/
+
 #portfolio {
     background-color: #1c2135;
     color: #e7e9ee;
@@ -165,6 +174,7 @@ body {
 }
 
 
+/*--contact form bit--*/
 
 #contact-form {
     height: 100vh;
@@ -172,7 +182,7 @@ body {
 }
 
 .form-group {
-    width: 80rem;
+    width: 70rem;
     margin-left: auto;
     margin-right: auto;
     color: #5a6794;
@@ -190,7 +200,7 @@ body {
 }
 
 
-
+/*--footer style--*/
 
 
 
