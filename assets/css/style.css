@@ -25,6 +25,10 @@ body {
         text-align: center;
     }
 
+    .navbar {
+        position: sticky;
+    }
+
     .navbar-toggler {
         border-color: #5a6794;
         color: #5a6794;
@@ -95,6 +99,9 @@ body {
 
 /*the list in header - story, portfolio, resume and social links in the bottom*/
 
+.navbar {
+    position: sticky;
+}
 
 
 .navbar-list ul li {
