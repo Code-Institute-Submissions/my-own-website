@@ -21,11 +21,10 @@ body {
         position: sticky;
     }
 
-    .navbar {
-        position: sticky;
+    .navbar-list {
         text-align: center;
     }
-
+    
     .navbar-toggler {
         border-color: #5a6794;
         color: #5a6794;
