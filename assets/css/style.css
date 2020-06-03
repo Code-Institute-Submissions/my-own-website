@@ -35,6 +35,11 @@ body {
         float: left;
         text-align: center;
         text-decoration-color: #5a6794;
+    } 
+    
+    .form-group {
+        padding-left: 20px;
+        padding-right: 20px;    
     }
   
     .row {
@@ -50,10 +55,7 @@ body {
         display: block;
     }
 
-    .form-group {
-        padding-left: 20px;
-        padding-right: 20px;    
-    }
+  
 }
 
 
