@@ -38,6 +38,11 @@ body {
     .phone, .social-links {
         display: block;
     }
+
+    .form-group {
+        width: 10rem;
+        text-align: center;
+    }
  }
 
 
@@ -86,6 +91,11 @@ body {
     margin-right: 30px;
 }
 
+.navbar-toggler:hover {
+        float: left;
+        text-align: center;
+        text-decoration-color: #5a6794;
+}
 
 /* block-divider*/
 
@@ -162,7 +172,7 @@ body {
 }
 
 .form-group {
-    width: 1100px;
+    width: 80rem;
     margin-left: auto;
     margin-right: auto;
     color: #5a6794;
