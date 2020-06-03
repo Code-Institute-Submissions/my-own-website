@@ -17,6 +17,9 @@ body {
         height: 100vh;
     }
 
+    #header {
+        position: sticky;
+    }
 
     #navbarNavDropdown {
         text-align: center;
@@ -59,6 +62,7 @@ body {
 #header {
     height: 70px;
     background-color: #1c2135;
+    position: sticky;
 }
 
 /*--that is supposed to stop overflow--*/
