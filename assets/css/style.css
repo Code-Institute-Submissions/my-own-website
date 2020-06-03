@@ -21,7 +21,7 @@ body {
         position: sticky;
     }
 
-    .navbar-list {
+    .collapse, .navbar-collapse, .navbar-list {
         text-align: center;
     }
     
