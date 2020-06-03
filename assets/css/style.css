@@ -23,11 +23,13 @@ body {
 
     .collapse, .navbar-collapse, .navbar-list {
         text-align: center;
+        font-weight: bold;
     }
     
     .navbar-toggler {
         border-color: #5a6794;
         color: #5a6794;
+        font-weight: bold;
     }
 
     .navbar-toggler:hover {
