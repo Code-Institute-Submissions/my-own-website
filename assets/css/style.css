@@ -17,16 +17,13 @@ body {
         height: 100vh;
     }
 
-    #header {
+    .sticky {
         position: sticky;
-    }
-
-    #navbarNavDropdown {
-        text-align: center;
     }
 
     .navbar {
         position: sticky;
+        text-align: center;
     }
 
     .navbar-toggler {
@@ -54,11 +51,9 @@ body {
     }
 
     .form-group {
-        width: 10rem;
-        margin-left: auto;
-        margin-right: auto;
+        
     }
- }
+}
 
 
 /*header style*/
@@ -66,7 +61,10 @@ body {
 #header {
     height: 70px;
     background-color: #1c2135;
-    position: sticky;
+}
+
+.sticky {
+        position: sticky;
 }
 
 /*--that is supposed to stop overflow--*/
@@ -193,7 +191,6 @@ body {
 }
 
 .form-group {
-    width: 65rem;
     margin-left: auto;
     margin-right: auto;
     color: #5a6794;
