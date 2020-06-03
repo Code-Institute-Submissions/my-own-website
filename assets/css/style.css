@@ -224,6 +224,7 @@ body {
 .phone {
     color:   #e7e9ee;
     text-align: right;
+    position: relative;
 }
 
 .social-links {
