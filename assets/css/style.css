@@ -10,7 +10,6 @@ body {
     background-color: #1c2135;
 }
 
-
 /*--media--*/
 
 @media (max-width: 576px) { 
@@ -24,6 +23,10 @@ body {
         position: sticky;
     }
 
+    .row {
+        margin: 0;
+        padding: 0;
+    }
     
 
     .navbar-toggler {
@@ -132,8 +135,8 @@ body {
 
 
 #navbarNavDropdown {
-    margin-left: 450px;
-    margin-top: 50px;
+    margin-left: 400px;
+    margin-top: 55px;
     color: #e7e9ee;
 }
 
@@ -159,7 +162,7 @@ body {
     color: #1c2135;
     box-shadow: 5px 5px 5px #5a6794;
     margin-top: 50px;
-    height: max-content;
+    height: 200px;
 }
 
 
@@ -223,6 +226,7 @@ body {
     color:   #e7e9ee;
     text-align: right;
     position: relative;
+    margin-left: 400px;
 }
 
 .social-links {
