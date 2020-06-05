@@ -10,6 +10,11 @@ body {
     background-color: #1c2135;
 }
 
+.row {
+    margin: 0;
+    padding: 0;
+}
+
 /*--media--*/
 
 @media (max-width: 576px) { 
