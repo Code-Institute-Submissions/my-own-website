@@ -119,17 +119,16 @@ body {
     position: sticky;
 }
 
+.nav-item {
+    color: #e7e9ee;
+}
+
 
 .navbar-list ul li {
     font-size: 20px;
     margin-right: 30px;
 }
 
-.navbar-toggler:hover {
-        float: left;
-        text-align: center;
-        text-decoration-color: #5a6794;
-}
 
 /* block-divider*/
 
