@@ -10,15 +10,7 @@ body {
     background-color: #1c2135;
 }
 
-.container-fluid {
-    padding: 0;
-    margin: 0;
-}
 
-.row {
-    margin: 0;
-    padding: 0;
-}
 /*--media--*/
 
 @media (max-width: 576px) { 
@@ -32,15 +24,7 @@ body {
         position: sticky;
     }
 
-    .container-fluid {
-    padding: 0;
-    margin: 0;
-    }
-
-    .row {
-        margin: 0;
-        padding: 0;    
-    }
+    
 
     .navbar-toggler {
         border: 1px;
