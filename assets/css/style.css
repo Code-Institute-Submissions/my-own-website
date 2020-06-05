@@ -69,6 +69,10 @@ body {
   
 }
 
+.align-bottom {
+    align-content: bottom;
+}
+
 
 /*header style*/
 
@@ -142,7 +146,7 @@ body {
 
 #navbarNavDropdown {
     margin-left: 400px;
-    margin-top: 55px;
+    margin-top: 35px;
     color: #e7e9ee;
 }
 
