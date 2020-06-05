@@ -42,27 +42,22 @@ body {
         padding: 0;    
     }
 
-    .collapse, .navbar-collapse, .navbar-list {
-        text-align: center;
+    .navbar-toggler {
+        border: 1px;
         font-weight: bold;
+        border-color: #5a6794;
+        align-content: center;
     }
-
-    .navbar-collapse {
-        text-align: center;
-    }
-    
+   
     
     .navbar-toggler-icone {
         color: #5a6794;
-        border: 1px;
         font-weight: bold;
         border-color: #5a6794;
         text-align: center;
     }
 
-    .navbar-toggler:hover {
-        color: #5a6794
-    }
+    
 
     .form-group {
         padding-left: 20px;
