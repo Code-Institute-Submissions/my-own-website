@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,500&family=Tangerine:wght@400;700&display=swap');
 
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -8,6 +10,15 @@ body {
     background-color: #1c2135;
 }
 
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
 /*--media--*/
 
 @media (max-width: 576px) { 
@@ -21,9 +32,23 @@ body {
         position: sticky;
     }
 
+    .container-fluid {
+    padding: 0;
+    margin: 0;
+    }
+
+    .row {
+        margin: 0;
+        padding: 0;    
+    }
+
     .collapse, .navbar-collapse, .navbar-list {
         text-align: center;
         font-weight: bold;
+    }
+
+    .navbar-collapse {
+        text-align: center;
     }
     
     
@@ -35,16 +60,15 @@ body {
         text-align: center;
     }
 
-    
+    .navbar-toggler:hover {
+        color: #5a6794
+    }
+
     .form-group {
         padding-left: 20px;
         padding-right: 20px;    
     }
   
-    .row {
-        margin: 0;
-        padding: 0;    
-    }
 
     .d-project, .e-project, .f-project {
         display: none;
@@ -71,10 +95,7 @@ body {
 
 /*--that is supposed to stop overflow--*/
 
-.row {
-    margin: 0;
-    padding: 0;
-}
+
 
 
 /* the text styled*/
