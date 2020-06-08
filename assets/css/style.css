@@ -62,10 +62,6 @@ body {
     }
   
 
-    .d-project, .e-project, .f-project {
-        display: none;
-    }
-
     .phone, .social-links {
         display: block;
     }
