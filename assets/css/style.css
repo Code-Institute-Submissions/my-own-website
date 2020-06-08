@@ -46,6 +46,13 @@ body {
         display: block;
     }
 
+    .navbar-toggler {
+        border-color: #5a6794;
+        background-color: transparent;
+    }
+
+    
+
   
 }
 
