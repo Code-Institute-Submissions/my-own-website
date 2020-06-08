@@ -73,10 +73,6 @@ body {
   
 }
 
-.align-bottom {
-    align-content: bottom;
-}
-
 
 /*header style*/
 
@@ -110,7 +106,6 @@ body {
 .story-text  {
     font-size: 20px;
     color: #5a6794;
-    margin: 50px 50px 0 50px;
 }
 
 
@@ -157,8 +152,6 @@ body {
 /*the middle part style*/
 
 #story {
-    height: 100vh;
-    width: 100vw;
     margin-top: 100px;
 }
 
@@ -195,17 +188,13 @@ body {
 #portfolio {
     background-color: #1c2135;
     color: #e7e9ee;
-    height: 120vh;
-    width: 100vw;
-    padding-right: 25px;
 }
 
 
 /*--contact form bit--*/
 
 #contact-form {
-    height: 100vh;
-    width: 100vw;
+   
 }
 
 .form-group {
