@@ -34,26 +34,6 @@ body {
         padding: 0;
     }
     
-    .navbar-expand-sm {
-        flex-direction: column;
-        align-content: center;
-    }
-
-    .navbar-toggler {
-        border: 1px;
-        font-weight: bold;
-        border-color: #5a6794;
-        align-content: center;
-    }
-   
-    
-    .navbar-toggler-icone {
-        color: #5a6794;
-        font-weight: bold;
-        border-color: #5a6794;
-        text-align: center;
-    }
-
     
 
     .form-group {
@@ -106,20 +86,6 @@ body {
 
 
 /*the list in header - story, portfolio, resume and social links in the bottom*/
-
-.navbar {
-    position: sticky;
-}
-
-.nav-item {
-    color: #e7e9ee;
-}
-
-
-.navbar-list ul li {
-    font-size: 20px;
-    margin-right: 30px;
-}
 
 
 /* block-divider*/
