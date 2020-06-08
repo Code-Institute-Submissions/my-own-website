@@ -58,10 +58,14 @@ body {
 }
 
 .sticky {
-        position: sticky;
+    position: sticky;
 }
 
-/*--that is supposed to stop overflow--*/
+.navbar-brand {
+    font-size: 60px;
+    font-family: "Tangerine", cursive;
+    color: #5a6794;
+}
 
 
 
