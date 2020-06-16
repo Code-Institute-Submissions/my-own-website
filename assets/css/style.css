@@ -42,10 +42,6 @@ body {
     .phone, .social-links {
         display: block;
     }
-
-    
-    
-
   
 }
 
@@ -108,6 +104,9 @@ body {
 
 /*borrowed navbar css from a bootstrap site that was made on a course*/
 
+.navbar-container {
+    position: sticky;
+}
 
 .navbar-toggler-icon {
     background-color: #e7e9ee;
@@ -116,6 +115,7 @@ body {
 .navbar-toggler {
     background-color: #5a6794;
 }
+
 
 
 /*the middle part style*/
