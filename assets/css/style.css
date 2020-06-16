@@ -25,9 +25,6 @@ body {
         height: 100vh;
     }
 
-    .sticky {
-        position: sticky;
-    }
 
     .row {
         margin: 0;
@@ -46,11 +43,7 @@ body {
         display: block;
     }
 
-    .navbar-toggler {
-        border-color: #5a6794;
-        background-color: transparent;
-    }
-
+    
     
 
   
@@ -64,9 +57,6 @@ body {
     background-color: #1c2135;
 }
 
-.sticky {
-    position: sticky;
-}
 
 .navbar-brand {
     font-size: 60px;
@@ -74,9 +64,8 @@ body {
     color: #5a6794;
 }
 
-.nav-link {
-    text-align: right;
-    color: #e7e9ee;
+.navbar-container {
+    background-color: #1c2135;
 }
 
 
@@ -121,16 +110,20 @@ body {
 /*borrowed navbar css from a bootstrap site that was made on a course*/
 
 
-#navbarNavDropdown {
-    margin-left: 400px;
-    margin-top: 35px;
-    color: #e7e9ee;
+.navbar-toggler-icon {
+    background-color: #e7e9ee;
 }
+
+.navbar-toggler {
+    background-color: #1c2135;
+}
+
 
 /*the middle part style*/
 
 #story {
     margin-top: 100px;
+    background-color: #1c2135;
 }
 
 /*card style*/
@@ -172,7 +165,7 @@ body {
 /*--contact form bit--*/
 
 #contact-form {
-   
+   background-color: #1c2135;
 }
 
 .form-group {
@@ -200,6 +193,7 @@ body {
 #footer {
     height: 100px;
     margin-top: 100px;
+    background-color: #1c2135;
 }
 
 
