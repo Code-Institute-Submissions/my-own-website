@@ -104,7 +104,7 @@ body {
 
 /*borrowed navbar css from a bootstrap site that was made on a course*/
 
-.navbar-container {
+.navbar {
     position: sticky;
 }
 
