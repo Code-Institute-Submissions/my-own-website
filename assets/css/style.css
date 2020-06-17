@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,500&family=Tangerine:wght@400;700&display=swap');
 
-
+/*the main and basic*/
 
 html {
     scroll-behavior: smooth;
@@ -49,12 +49,15 @@ body {
 }
 
 
-/*header style*/
+/*header and navigation*/
 
 #header {
     background-color: #1c2135;
 }
 
+.navbar {
+    position: sticky;
+}
 
 .navbar-brand {
     font-size: 60px;
@@ -62,14 +65,23 @@ body {
     color: #5a6794;
 }
 
-.navbar-container {
-    background-color: #1c2135;
+.navbar-toggler-icon {
+    background-color: #e7e9ee;
 }
 
+.navbar-toggler {
+    background-color: #5a6794;
+}
 
+/*the image*/
 
+.round-image {
+    box-shadow: 3px 3px 3px #e7e9ee;
+    height: 170px;
+    width: 160px;
+}
 
-/* the text styled*/
+/* the text and block-dividers*/
 
 .brand-logo, .brand-story, .brand-potfolio, .brand-contact {
     color: #5a6794;
@@ -80,18 +92,10 @@ body {
     margin-top: 10px;
 }
 
-
-/*the block of text that counts as story */
 .story-text  {
     font-size: 20px;
     color: #5a6794;
 }
-
-
-/*the list in header - story, portfolio, resume and social links in the bottom*/
-
-
-/* block-divider*/
 
 .block-divider {
     width: 300px;
@@ -105,23 +109,7 @@ body {
     margin-top: -25px;
 }
 
-/*borrowed navbar css from a bootstrap site that was made on a course*/
-
-.navbar {
-    position: sticky;
-}
-
-.navbar-toggler-icon {
-    background-color: #e7e9ee;
-}
-
-.navbar-toggler {
-    background-color: #5a6794;
-}
-
-
-
-/*the middle part style*/
+/*story section*/
 
 #story {
     margin-top: 100px;
@@ -135,7 +123,6 @@ body {
     margin-right: 25px;
 }
 
-
 .a-card, .b-card, .c-card, .d-card, .e-card, .f-card {
     border-color: #5a6794;
     background-color: #e7e9ee;
@@ -145,26 +132,14 @@ body {
     height: 200px;
 }
 
-
-
-/*the image*/
-
-.round-image {
-    box-shadow: 3px 3px 3px #e7e9ee;
-    height: 170px;
-    width: 160px;
-
-}
-
-/*--portfolio bit--*/
+/*--portfolio section--*/
 
 #portfolio {
     background-color: #1c2135;
     color: #e7e9ee;
 }
 
-
-/*--contact form bit--*/
+/*--contact form--*/
 
 #contact-form {
    background-color: #1c2135;
@@ -180,24 +155,19 @@ body {
     text-align: center;
 }
 
-
 .submit-btn {
     background-color: #5a6794;
     color: #e7e9ee;
     margin-top: 20px;
 }
 
-
-/*--footer style--*/
-
-
+/*--footer phone and socila links--*/
 
 #footer {
     height: 100px;
     margin-top: 100px;
     background-color: #1c2135;
 }
-
 
 .phone {
     color:   #e7e9ee;
