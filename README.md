@@ -29,9 +29,7 @@ the user has personal contacts to the hand.
 
 ### Skeleton
 By using Balsamiq app three wireframes were created to serve as sketches for the project.
- 
- 
- 
+This is the link where these wireframes can be found https://photos.app.goo.gl/SYRXxb73xyGCZuKu6
 
 ### Surface
 Code institute template was used to create the project. Several colour pallets were applied to give the pages crisp and solid aesthetics.  Pinterest app was used to find the better combination of the fonts, which were used through Google Fonts and Font Awesome was applied for little icons. The whole aesthetics were combined to create subtle but tough impression on the person advertised.
